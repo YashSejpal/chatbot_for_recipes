@@ -4,6 +4,9 @@
   The chatbot is capable of maintaining a conversation with the user, recommending various dishes based on the user's input such as ingredients, cuisine, etc.   
   There are two ways to use this chatbot: the first is through the API endpoint we have created, and the second is through the CLI.
 
+# Track
+  This submission is for the AI track.
+  
 # Techstack Used
     OpenAI API  
     Django
