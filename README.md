@@ -31,5 +31,6 @@
        """}  
 
 # CLI
-  To use the CLI, just download the chatbot.py file, and run it on a Python IDE.
+  To use the CLI, you first have to create an openAI API key.  
+  Then, download the chatbot.py file, replace 'YOUR-API-KEY' with your actual key and run it on a Python IDE.  
   Make sure to install the required packages from requirements_cli.txt file.
