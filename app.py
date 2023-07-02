@@ -19,8 +19,13 @@ def chatbot():
 
     # Check if all required information is collected
     if len(user_responses) < len(questions):
-        # Ask the next question
-        question = questions[len(user_responses)]
+        # Get the index of the current question
+        current_question_index = len(user_responses)
+
+        # Get the next question
+        question = questions[current_question_index]
+
+        # Return the next question as the API response
         response = {
             'question': question
         }
