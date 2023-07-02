@@ -2,7 +2,7 @@ from django.http import JsonResponse
 from django.views.decorators.csrf import csrf_exempt
 import openai
 
-openai.api_key = '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'
+openai.api_key = 'YOUR_API_KEY'
 
 def get_completion_from_messages(messages, model="gpt-3.5-turbo", temperature=1):
     response = openai.ChatCompletion.create(
