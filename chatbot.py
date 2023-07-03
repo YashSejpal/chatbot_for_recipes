@@ -3,7 +3,7 @@ import openai
 from dotenv import load_dotenv, find_dotenv
 _ = load_dotenv(find_dotenv()) # read local .env file
 
-openai.api_key  = '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'
+openai.api_key  = 'YOUR-API-KEY'
 
 def get_completion_from_messages(messages, model="gpt-3.5-turbo", temperature=1):
     response = openai.ChatCompletion.create(
